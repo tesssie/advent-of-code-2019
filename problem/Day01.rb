@@ -1,5 +1,11 @@
 def fuel_requirement(mass)
-    return (mass/3) -2
+   sum = 0
+   while(mass/3-2>0)
+      mass = mass/3-2
+      sum+=mass
+      p sum
+   end
+   sum
 end
 
 sum =0
